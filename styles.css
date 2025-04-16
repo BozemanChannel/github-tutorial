@@ -1,4 +1,8 @@
-body {
+* {
     background: #222;
     color: white;
+}
+
+.networks {
+    cursor: pointer;
 }
