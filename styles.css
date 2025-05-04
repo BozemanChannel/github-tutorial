@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.photo {
+    width: 260px;
+    height: 260px;
+    border-radius: 9%;
+}
+
+.j1 {
+    color: rgb(255, 166, 0);
+}
+
+.HTML {
+    color: orange;
+}
+
+.CSS {
+    color: blueviolet;
+}
+
+.JS {
+    color: yellow;
+}
+
+.button{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.863);
+    border: 2px solid rgba(184, 122, 184, 0.178);
+    border-radius: 14px;
+    padding: 5px 19px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 5px gray
+}    
+
+button:hover {
+    background-color: gray;
+    box-shadow: 0 0 12px rgba(26, 25, 25, 0.8); 
+}
+
+.button-icon {
+    width: 32px;
+}
+
+.footer {
+    background: rgb(49, 49, 49);
+    width: auto;
+    height: 24px;
+    border-radius: 12px;
+    content: center;
+}
